@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API = axios.create({
-  baseURL: "http://localhost:3000/api",
+const api = axios.create({
+  baseURL: "https://travel-planner-backend-iubd.onrender.com/"
 });
 
 API.interceptors.request.use((config) => {
